@@ -1,0 +1,56 @@
+.Projects {
+    min-height: 100%;
+    width: 70rem;
+    max-width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ProjectsContent {
+    background-color: rgb(0 0 0 / 20%);
+    border-radius: .7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Project {
+    padding: 1rem;
+    border-radius: .7rem;
+    flex: 1 1 33.333%;
+    max-width: 33.333%;
+}
+
+.Project:hover {
+    background-color: rgb(0 0 0 / 15%);
+}
+
+.Project > p {
+    font-size: .95rem;
+}
+
+.ProjectImage {
+    width: 10rem;
+    height: 10rem;
+    background-color: gray;
+    border-radius: .7rem;
+    margin: .8rem auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .Projects {
+        padding: 2rem 0;
+    }
+
+    .ProjectsContent {
+        flex-direction: column;
+    }
+
+    .Project {
+        max-width: 100%;
+    }
+}

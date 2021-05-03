@@ -1,0 +1,117 @@
+.Hobbies {
+    min-height: 100%;
+    width: 70rem;
+    max-width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HobbiesContent {
+    background-color: rgb(255 255 255 / 20%);
+    border-radius: .7rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.HobbiesContent header {
+    color: black;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.Hobby {
+    padding: 1rem;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.HobbyImage {
+    width: 22rem;
+    max-width: 95%;
+    height: 15rem;
+    border-radius: .7rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.SlidingImage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all .3s linear;
+}
+
+.ArrowRight, .ArrowLeft {
+    width: 2rem;
+    height: 2rem;
+    z-index: 100;
+    background: rgb(255 255 255 / 20%) center center / 45% no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 1rem);
+    cursor: pointer;
+}
+
+.ArrowRight {
+    background-image: url('../../assets/images/right-arrow.svg');
+    right: .3rem;
+}
+
+.ArrowLeft {
+    background-image: url('../../assets/images/left-arrow.svg');
+    left: .3rem;
+}
+
+.ArrowRight:hover, .ArrowLeft:hover {
+    background-color: rgb(255 255 255 / 30%);
+}
+
+.Nice {
+    background: url('../../assets/images/Nice.jpg') center center / cover no-repeat;
+}
+
+.Svalbard {
+    background: url('../../assets/images/Svalbard.jpg') center center / cover no-repeat;
+}
+
+.Vienn {
+    background: url('../../assets/images/Vienn.jpg') center center / cover no-repeat;
+}
+
+.Preikestolen {
+    background: url('../../assets/images/Preikestolen.jpg') center center / cover no-repeat;
+}
+
+.ImageCat1 {
+    background: url('../../assets/images/cat1.jpg') center center / cover no-repeat;
+}
+.ImageCat2 {
+    background: url('../../assets/images/cat2.jpg') center center / cover no-repeat;
+}
+.ImageCat3 {
+    background: url('../../assets/images/cat3.jpg') center center / cover no-repeat;
+}
+.ImageCat4 {
+    background: url('../../assets/images/cat4.jpg') center center / cover no-repeat;
+}
+
+.Hobby > p {
+    margin: 0 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .Hobby {
+        flex-direction: column;
+    }
+
+    .Hobby > p {
+        margin: 1rem 0;
+        text-align: center;
+    }
+}
