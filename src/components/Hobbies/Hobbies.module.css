@@ -4,8 +4,14 @@
     max-width: 90vw;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.Hobbies header {
+    text-align: center;
+    margin: 4rem 0;
 }
 
 .HobbiesContent {
@@ -16,17 +22,15 @@
     flex-direction: column;
 }
 
-.HobbiesContent header {
-    color: black;
-    padding: 2rem 1rem;
-    text-align: center;
-}
-
 .Hobby {
     padding: 1rem;
     color: black;
     display: flex;
     align-items: center;
+}
+
+.Hobby:nth-child(2n) p {
+    order: -1;
 }
 
 .HobbyImage {
@@ -50,7 +54,7 @@
     width: 2rem;
     height: 2rem;
     z-index: 100;
-    background: rgb(255 255 255 / 20%) center center / 45% no-repeat;
+    background: rgb(0 0 0 / 30%) center center / 45% no-repeat;
     border-radius: 50%;
     position: absolute;
     top: calc(50% - 1rem);
@@ -68,24 +72,41 @@
 }
 
 .ArrowRight:hover, .ArrowLeft:hover {
-    background-color: rgb(255 255 255 / 30%);
+    background-color: rgb(0 0 0 / 40%);
 }
 
 .Nice {
     background: url('../../assets/images/Nice.jpg') center center / cover no-repeat;
 }
-
 .Svalbard {
     background: url('../../assets/images/Svalbard.jpg') center center / cover no-repeat;
 }
-
 .Vienn {
     background: url('../../assets/images/Vienn.jpg') center center / cover no-repeat;
 }
-
 .Preikestolen {
     background: url('../../assets/images/Preikestolen.jpg') center center / cover no-repeat;
 }
+
+
+.Fishing1 {
+    background: url('../../assets/images/fishing1.jpg') center center / cover no-repeat;
+}
+.Fishing2 {
+    background: url('../../assets/images/fishing2.jpg') center center / cover no-repeat;    
+}
+.Fishing3 {
+    background: url('../../assets/images/fishing3.jpg') center center / cover no-repeat;    
+}
+.Fishing4 {
+    background: url('../../assets/images/fishing4.jpg') center center / cover no-repeat;    
+}
+
+
+.Gym {
+    background: url('../../assets/images/gym.jpg') center center / cover no-repeat;    
+}
+
 
 .ImageCat1 {
     background: url('../../assets/images/cat1.jpg') center center / cover no-repeat;
@@ -102,6 +123,7 @@
 
 .Hobby > p {
     margin: 0 1rem;
+    max-width: calc(100% - 24rem);
 }
 
 @media only screen and (max-width: 600px) {
@@ -110,8 +132,13 @@
         flex-direction: column;
     }
 
+    .Hobby:nth-child(2n) p {
+        order: 1;
+    }
+
     .Hobby > p {
         margin: 1rem 0;
         text-align: center;
+        max-width: 100%;
     }
 }

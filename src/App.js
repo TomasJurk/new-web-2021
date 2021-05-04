@@ -25,7 +25,7 @@ const App = () => {
       <main id="scrollableElement" className={styles.Main} onScroll={handleScroll}>
         <About />
         <Projects />
-        <div className={styles.Astronaut} />
+        <div className={styles.SpaceObject} />
         <Hobbies />
         {scrollPosition > 0 ? <div className={styles.ButtonUp} onClick={backOnTop} /> : null}
       </main>

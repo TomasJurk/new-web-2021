@@ -2,6 +2,9 @@ import styles from './Projects.module.css';
 
 const Projects = () => (
     <div className={styles.Projects}>
+        <header>
+            <h2>Some projects, that i've been working on</h2>
+        </header>
         <div className={styles.ProjectsContent}>
             <div className={styles.Project}>
                 <div className={styles.ProjectImage} />

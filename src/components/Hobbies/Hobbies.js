@@ -5,6 +5,7 @@ import styles from './Hobbies.module.css';
 const Hobbies = () => {
 
     const [travelPicturePosition, setTravelPicturePosition] = useState(0);
+    const [fishingPicturePosition, setFishingPicturePosition] = useState(0);
     const [catPicturePosition, setCatPicturePosition] = useState(0);
 
 
@@ -29,28 +30,37 @@ const Hobbies = () => {
 
     return (
         <div className={styles.Hobbies}>
+            <header>
+                <h2>And a little bit about me, some of my hobbies</h2>
+            </header>
             <div className={styles.HobbiesContent}>
-                <header>
-                    <h2>And a little bit about me, some of my hobbies</h2>
-                </header>
                 <div className={styles.Hobby}>
                     <div className={styles.HobbyImage}>
-                        <div className={styles.ArrowLeft} onClick={() => prevPic(setTravelPicturePosition, travelPicturePosition)} />
-                        <div className={styles.ArrowRight} onClick={() => nextPic(setTravelPicturePosition, travelPicturePosition)} />
+                        {/* <div className={styles.ArrowLeft} onClick={() => prevPic(setTravelPicturePosition, travelPicturePosition)} /> */}
+                        {/* <div className={styles.ArrowRight} onClick={() => nextPic(setTravelPicturePosition, travelPicturePosition)} /> */}
                         <div className={`${styles.SlidingImage} ${styles.Nice}`} style={{left: travelPicturePosition + '%'}}/>
-                        <div className={`${styles.SlidingImage} ${styles.Svalbard}`} style={{left: travelPicturePosition + 100 + '%'}}/>
-                        <div className={`${styles.SlidingImage} ${styles.Vienn}`} style={{left: travelPicturePosition + 200 + '%'}}/>
-                        <div className={`${styles.SlidingImage} ${styles.Preikestolen}`} style={{left: travelPicturePosition + 300 + '%'}}/>
+                        {/* <div className={`${styles.SlidingImage} ${styles.Svalbard}`} style={{left: travelPicturePosition + 100 + '%'}}/> */}
+                        {/* <div className={`${styles.SlidingImage} ${styles.Vienn}`} style={{left: travelPicturePosition + 200 + '%'}}/> */}
+                        {/* <div className={`${styles.SlidingImage} ${styles.Preikestolen}`} style={{left: travelPicturePosition + 300 + '%'}}/> */}
                     </div>
                     <p>Traveling! We want to visit every corner of this planet</p>
                 </div>
                 <div className={styles.Hobby}>
-                    <div className={styles.HobbyImage} />
-                    <p>Fishing</p>
+                    <div className={styles.HobbyImage}>
+                        {/* <div className={styles.ArrowLeft} onClick={() => prevPic(setFishingPicturePosition, fishingPicturePosition)} /> */}
+                        {/* <div className={styles.ArrowRight} onClick={() => nextPic(setFishingPicturePosition, fishingPicturePosition)} /> */}
+                        <div className={`${styles.SlidingImage} ${styles.Fishing1}`} style={{left: fishingPicturePosition + '%'}}/>
+                        {/* <div className={`${styles.SlidingImage} ${styles.Fishing2}`} style={{left: fishingPicturePosition + 100 + '%'}}/> */}
+                        {/* <div className={`${styles.SlidingImage} ${styles.Fishing3}`} style={{left: fishingPicturePosition + 200 + '%'}}/> */}
+                        {/* <div className={`${styles.SlidingImage} ${styles.Fishing4}`} style={{left: fishingPicturePosition + 300 + '%'}}/> */}
+                    </div>
+                    <p>Fishing. Lakes, rivers, fjords. Of course most catch goes back to water. Only a few fish goes to the refrigerator!</p>
                 </div>
                 <div className={styles.Hobby}>
-                    <div className={styles.HobbyImage} />
-                    <p>Exercise. Gym, cykling, walking... Love to do that all</p>
+                    <div className={styles.HobbyImage}>
+                        <div className={`${styles.SlidingImage} ${styles.Gym}`} style={{left: fishingPicturePosition + '%'}}/>
+                    </div>
+                    <p>Exercise. Weightlifting, cykling, walking... Love to do that all</p>
                 </div>
                 <div className={styles.Hobby}>
                     <div className={styles.HobbyImage}>

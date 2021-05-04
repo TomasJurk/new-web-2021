@@ -10,6 +10,12 @@
     text-align: center;
 }
 
+.Projects header {
+    text-align: center;
+    margin: 4rem 0;
+    color: black;
+}
+
 .ProjectsContent {
     background-color: rgb(0 0 0 / 20%);
     border-radius: .7rem;
