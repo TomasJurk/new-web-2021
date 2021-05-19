@@ -2,7 +2,7 @@
     min-height: 100%;
     width: 70rem;
     max-width: 90vw;
-    margin: 0 auto;
+    margin: 0 auto 5rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,7 +47,8 @@
     height: 100%;
     position: absolute;
     top: 0;
-    transition: all .3s linear;
+    transition: all .1s linear;
+    background: gray center center / cover no-repeat;
 }
 
 .ArrowRight, .ArrowLeft {
@@ -76,49 +77,49 @@
 }
 
 .Nice {
-    background: url('../../assets/images/Nice.jpg') center center / cover no-repeat;
+    background-image: url('../../assets/images/Nice.jpg');
 }
 .Svalbard {
-    background: url('../../assets/images/Svalbard.jpg') center center / cover no-repeat;
+    background-image: url('../../assets/images/Svalbard.jpg');
 }
 .Vienn {
-    background: url('../../assets/images/Vienn.jpg') center center / cover no-repeat;
+    background-image: url('../../assets/images/Vienn.jpg');
 }
 .Preikestolen {
-    background: url('../../assets/images/Preikestolen.jpg') center center / cover no-repeat;
+    background-image: url('../../assets/images/Preikestolen.jpg');
 }
 
 
 .Fishing1 {
-    background: url('../../assets/images/fishing1.jpg') center center / cover no-repeat;
+    background-image: url('../../assets/images/fishing1.jpg');
 }
 .Fishing2 {
-    background: url('../../assets/images/fishing2.jpg') center center / cover no-repeat;    
+    background-image: url('../../assets/images/fishing2.jpg');    
 }
 .Fishing3 {
-    background: url('../../assets/images/fishing3.jpg') center center / cover no-repeat;    
+    background-image: url('../../assets/images/fishing3.jpg');    
 }
 .Fishing4 {
-    background: url('../../assets/images/fishing4.jpg') center center / cover no-repeat;    
+    background-image: url('../../assets/images/fishing4.jpg');    
 }
 
 
 .Gym {
-    background: url('../../assets/images/gym.jpg') center center / cover no-repeat;    
+    background-image: url('../../assets/images/gym.jpg');    
 }
 
 
 .ImageCat1 {
-    background: url('../../assets/images/cat1.jpg') center center / cover no-repeat;
+    background-image: url('../../assets/images/cat1.jpg');
 }
 .ImageCat2 {
-    background: url('../../assets/images/cat2.jpg') center center / cover no-repeat;
+    background-image: url('../../assets/images/cat2.jpg');
 }
 .ImageCat3 {
-    background: url('../../assets/images/cat3.jpg') center center / cover no-repeat;
+    background-image: url('../../assets/images/cat3.jpg');
 }
 .ImageCat4 {
-    background: url('../../assets/images/cat4.jpg') center center / cover no-repeat;
+    background-image: url('../../assets/images/cat4.jpg');
 }
 
 .Hobby > p {

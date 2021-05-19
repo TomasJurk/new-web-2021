@@ -29,6 +29,8 @@
     border-radius: .7rem;
     flex: 1 1 33.333%;
     max-width: 33.333%;
+    color: white;
+    text-decoration: none;
 }
 
 .Project:hover {
@@ -40,11 +42,19 @@
 }
 
 .ProjectImage {
-    width: 10rem;
-    height: 10rem;
-    background-color: gray;
+    width: 15rem;
+    height: 15rem;
+    background: gray center center / cover no-repeat;
     border-radius: .7rem;
     margin: .8rem auto;
+}
+
+.Blog {
+    background-image: url('../../assets/images/blog.PNG');
+}
+
+.Bikesharing {
+    background-image: url('../../assets/images/bikesharing.PNG');
 }
 
 @media only screen and (max-width: 600px) {

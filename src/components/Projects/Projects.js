@@ -6,26 +6,22 @@ const Projects = () => (
             <h2>Some projects, that i've been working on</h2>
         </header>
         <div className={styles.ProjectsContent}>
-            <div className={styles.Project}>
-                <div className={styles.ProjectImage} />
+            <a className={styles.Project} href="https://tomasjurk.github.io/Portfolio/socialapp/" rel="noreferrer" target="_blank">
+                <div className={`${styles.ProjectImage} ${styles.Blog}`} />
+                <p>A little social space page, blog</p>
+            </a>
+            <a className={styles.Project} href="/" rel="noreferrer" target="_blank">
+                <div className={`${styles.ProjectImage} ${styles.SimpleYoutubeVideos}`} />
+                <p>The small app powered by Youtube API, to track and watch newest videos of my favorite shows</p>
+            </a>
+            <a className={styles.Project} href="https://tomasjurk.github.io/Portfolio/bikestations/" rel="noreferrer" target="_blank">
+                <div className={`${styles.ProjectImage} ${styles.Bikesharing}`} />
+                <p>Bike sharing stations with available bikes. Locations received from https://oslobysykkel.no/en/open-data/realtime open API.</p>
+            </a>
+            <a className={styles.Project} href="/" rel="noreferrer" target="_blank">
+                <div className={`${styles.ProjectImage} ${styles.BurgerBuilder}`} />
                 <p>lasdf d fsad fasdf asd fsad salkjhd aksd asdlkjhasdl alsdhalwd asd</p>
-            </div>
-            <div className={styles.Project}>
-                <div className={styles.ProjectImage} />
-                <p>lasdf d fsad fasdf asd fsad kedujwh ailwhdalk alwihda ksdj askdj as</p>
-            </div>
-            <div className={styles.Project}>
-                <div className={styles.ProjectImage} />
-                <p>lasdf d fsad fasdf asd fsad</p>
-            </div>
-            <div className={styles.Project}>
-                <div className={styles.ProjectImage} />
-                <p>lasdf d fsad fasdf asd fsad</p>
-            </div>
-            <div className={styles.Project}>
-                <div className={styles.ProjectImage} />
-                <p>lasdf d fsad fasdf asd fsad</p>
-            </div>
+            </a>
         </div>
     </div>
 );
