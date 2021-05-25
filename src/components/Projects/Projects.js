@@ -10,9 +10,9 @@ const Projects = () => (
                 <div className={`${styles.ProjectImage} ${styles.Blog}`} />
                 <p>A little social space page, blog</p>
             </a>
-            <a className={styles.Project} href="/" rel="noreferrer" target="_blank">
+            <a className={styles.Project} href="https://tomasjurk.github.io/Portfolio/ytapp/" rel="noreferrer" target="_blank">
                 <div className={`${styles.ProjectImage} ${styles.SimpleYoutubeVideos}`} />
-                <p>The small app powered by Youtube API, to track and watch newest videos of my favorite shows</p>
+                <p>The small app powered by Youtube API, to track and watch newest videos of my favorite shows. (Youtube API has limited requests around 30 daily)</p>
             </a>
             <a className={styles.Project} href="https://tomasjurk.github.io/Portfolio/bikestations/" rel="noreferrer" target="_blank">
                 <div className={`${styles.ProjectImage} ${styles.Bikesharing}`} />

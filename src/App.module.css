@@ -13,7 +13,7 @@
 }
 
 .SpaceObject {
-  background: url('./assets/images/space_obj.png') center 35% / 40% no-repeat;
+  background: url('./assets/images/space_obj.png') center 40% / 40% no-repeat;
   width: 20rem;
   max-width: 95%;
   height: 100vh;
