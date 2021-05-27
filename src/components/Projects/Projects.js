@@ -3,7 +3,7 @@ import styles from './Projects.module.css';
 const Projects = () => (
     <div className={styles.Projects}>
         <header>
-            <h2>Some projects, that i've been working on</h2>
+            <h2>Some projects i've been working on</h2>
         </header>
         <div className={styles.ProjectsContent}>
             <a className={styles.Project} href="https://tomasjurk.github.io/Portfolio/socialapp/" rel="noreferrer" target="_blank">
@@ -18,9 +18,9 @@ const Projects = () => (
                 <div className={`${styles.ProjectImage} ${styles.Bikesharing}`} />
                 <p>Bike sharing stations with available bikes. Locations received from https://oslobysykkel.no/en/open-data/realtime open API.</p>
             </a>
-            <a className={styles.Project} href="/" rel="noreferrer" target="_blank">
+            <a className={styles.Project} href="https://tomasjurk.github.io/Portfolio/burgerapp/" rel="noreferrer" target="_blank">
                 <div className={`${styles.ProjectImage} ${styles.BurgerBuilder}`} />
-                <p>lasdf d fsad fasdf asd fsad salkjhd aksd asdlkjhasdl alsdhalwd asd</p>
+                <p>Burger builder app</p>
             </a>
         </div>
     </div>
