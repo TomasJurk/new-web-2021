@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './App.module.css';
 
+import Navigation from './components/Navigation/Navigation';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Hobbies from './components/Hobbies/Hobbies';
@@ -23,6 +24,7 @@ const App = () => {
     <div className={styles.App}>
       <header></header>
       <main id="scrollableElement" className={styles.Main} onScroll={handleScroll}>
+        <Navigation />
         <About />
         <Projects />
         <div className={styles.SpaceObject} />

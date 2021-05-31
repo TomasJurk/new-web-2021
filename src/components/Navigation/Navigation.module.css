@@ -1,0 +1,44 @@
+.Navigation {
+    width: 100%;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.MenuButtonContainer {
+    border-radius: 50%;
+    height: 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+    display: flex;
+}
+
+.MenuButtonLeft, .MenuButtonRight {
+    height: 2rem;
+    width: 1rem;
+    cursor: pointer;
+}
+
+.MenuButtonLeft {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background: rgb(0,0,0);
+    background: rgb(0,0,66);
+    background: linear-gradient(0deg, rgba(0,0,66,1) 0%, rgba(61,39,176,1) 40%, rgba(255,255,255,1) 100%);  
+}
+
+.MenuButtonCenter {
+    height: 100%;
+    width: 0rem;
+    max-width: 95vw;
+    border-top: 1px solid rgb(255,255,255);
+    border-bottom: 1px solid rgb(0,0,66);
+    transition: all .5s linear;
+}
+
+.MenuButtonRight {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background: rgb(0,0,0);
+    background: rgb(0,0,66);
+    background: linear-gradient(0deg, rgba(0,0,66,1) 0%, rgba(61,39,176,1) 40%, rgba(255,255,255,1) 100%);
+}
