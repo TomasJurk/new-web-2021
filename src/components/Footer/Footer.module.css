@@ -1,0 +1,16 @@
+.Footer {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Linkedin {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url('../../assets/images/linkedin.png') center center / contain no-repeat;
+    border-radius: .35rem;
+    margin-bottom: .5rem;
+    box-shadow: 0 0 1px #fff;
+}

@@ -29,7 +29,7 @@ const Hobbies = () => {
     
 
     return (
-        <div className={styles.Hobbies}>
+        <div id="hobbies" className={styles.Hobbies}>
             <header>
                 <h2>And a little bit about me, some of my hobbies</h2>
             </header>

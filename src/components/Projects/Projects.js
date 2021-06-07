@@ -1,7 +1,7 @@
 import styles from './Projects.module.css';
 
 const Projects = () => (
-    <div className={styles.Projects}>
+    <div id="projects" className={styles.Projects}>
         <header>
             <h2>Some projects i've been working on</h2>
         </header>

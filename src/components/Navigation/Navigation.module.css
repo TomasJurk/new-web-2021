@@ -5,15 +5,17 @@
 }
 
 .MenuButtonContainer {
-    border-radius: 50%;
+    border-radius: 1rem;
     height: 2rem;
     width: fit-content;
     margin: 1rem auto;
     display: flex;
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+    transition: box-shadow 1.5s ease-out;   
 }
 
 .MenuButtonLeft, .MenuButtonRight {
-    height: 2rem;
+    height: 100%;
     width: 1rem;
     cursor: pointer;
 }
@@ -28,11 +30,24 @@
 
 .MenuButtonCenter {
     height: 100%;
-    width: 0rem;
-    max-width: 95vw;
     border-top: 1px solid rgb(255,255,255);
     border-bottom: 1px solid rgb(0,0,66);
     transition: all .5s linear;
+    overflow: hidden;
+}
+
+.MenuButtonCenter ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.MenuButtonCenter a {
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
 }
 
 .MenuButtonRight {

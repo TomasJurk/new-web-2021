@@ -5,6 +5,7 @@ import Navigation from './components/Navigation/Navigation';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Hobbies from './components/Hobbies/Hobbies';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -29,6 +30,7 @@ const App = () => {
         <Projects />
         <div className={styles.SpaceObject} />
         <Hobbies />
+        <Footer />
         {scrollPosition > 0 ? <div className={styles.ButtonUp} onClick={backOnTop} /> : null}
       </main>
     </div>
