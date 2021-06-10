@@ -54,13 +54,13 @@ const Hobbies = () => {
                         {/* <div className={`${styles.SlidingImage} ${styles.Fishing3}`} style={{left: fishingPicturePosition + 200 + '%'}}/> */}
                         {/* <div className={`${styles.SlidingImage} ${styles.Fishing4}`} style={{left: fishingPicturePosition + 300 + '%'}}/> */}
                     </div>
-                    <p>Fishing. Lakes, rivers, fjords. Of course most catch goes back to water. Only a few fish goes to the refrigerator!</p>
+                    <p>Fishing. Lakes, rivers, fjords. Of course most of catch goes back to water. Only a few fish goes to the refrigerator!</p>
                 </div>
                 <div className={styles.Hobby}>
                     <div className={styles.HobbyImage}>
                         <div className={`${styles.SlidingImage} ${styles.Gym}`} style={{left: fishingPicturePosition + '%'}}/>
                     </div>
-                    <p>Exercise. Weightlifting, cykling, walking... Love to do that all</p>
+                    <p>Weightlifting, cycling, walking and nutrition. I reached personal goal by losing 20kg of body fat!</p>
                 </div>
                 <div className={styles.Hobby}>
                     <div className={styles.HobbyImage}>
