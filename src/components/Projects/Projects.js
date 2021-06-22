@@ -16,7 +16,7 @@ const Projects = () => (
             </a>
             <a className={styles.Project} href="https://tomasjurk.github.io/Portfolio/bikestations/" rel="noreferrer" target="_blank">
                 <div className={`${styles.ProjectImage} ${styles.Bikesharing}`} />
-                <p>Bike sharing stations with available bikes. Locations received from https://oslobysykkel.no/en/open-data/realtime open API.</p>
+                <p>Bike sharing stations with available bikes. Locations received from oslobysykkel.no open API.</p>
             </a>
             <a className={styles.Project} href="https://tomasjurk.github.io/Portfolio/burgerapp/" rel="noreferrer" target="_blank">
                 <div className={`${styles.ProjectImage} ${styles.BurgerBuilder}`} />

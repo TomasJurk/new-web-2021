@@ -39,6 +39,7 @@
 
 .Project > p {
     font-size: .95rem;
+    overflow-wrap: break-word;
 }
 
 .ProjectImage {
@@ -63,6 +64,13 @@
 
 .BurgerBuilder {
     background-image: url('../../assets/images/burger.PNG');
+}
+
+@media only screen and (min-width: 601px) and (max-width: 899px) {
+    .Project {
+        flex: 1 1 50%;
+        max-width: 50%;
+    }
 }
 
 @media only screen and (max-width: 600px) {

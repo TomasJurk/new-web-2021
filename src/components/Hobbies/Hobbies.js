@@ -43,7 +43,7 @@ const Hobbies = () => {
                         {/* <div className={`${styles.SlidingImage} ${styles.Vienn}`} style={{left: travelPicturePosition + 200 + '%'}}/> */}
                         {/* <div className={`${styles.SlidingImage} ${styles.Preikestolen}`} style={{left: travelPicturePosition + 300 + '%'}}/> */}
                     </div>
-                    <p>Traveling! We want to visit every corner of this planet</p>
+                    <p>Traveling. We want to visit every corner of this planet</p>
                 </div>
                 <div className={styles.Hobby}>
                     <div className={styles.HobbyImage}>
@@ -54,13 +54,13 @@ const Hobbies = () => {
                         {/* <div className={`${styles.SlidingImage} ${styles.Fishing3}`} style={{left: fishingPicturePosition + 200 + '%'}}/> */}
                         {/* <div className={`${styles.SlidingImage} ${styles.Fishing4}`} style={{left: fishingPicturePosition + 300 + '%'}}/> */}
                     </div>
-                    <p>Fishing. Lakes, rivers, fjords. Of course most of catch goes back to water. Only a few fish goes to the refrigerator!</p>
+                    <p>Fishing. Lakes, rivers, fjords. Mostly catch and release fishing, but some of catch goes to frying pan :)</p>
                 </div>
                 <div className={styles.Hobby}>
                     <div className={styles.HobbyImage}>
                         <div className={`${styles.SlidingImage} ${styles.Gym}`} style={{left: fishingPicturePosition + '%'}}/>
                     </div>
-                    <p>Weightlifting, cycling, walking and nutrition. I reached personal goal by losing 20kg of body fat!</p>
+                    <p>Weightlifting, cycling, walking and nutrition. I reached personal goal by losing 20kg of overweight!</p>
                 </div>
                 <div className={styles.Hobby}>
                     <div className={styles.HobbyImage}>
