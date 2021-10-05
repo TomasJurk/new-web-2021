@@ -6,6 +6,10 @@ const Projects = () => (
             <h2>Some projects i've been working on</h2>
         </header>
         <div className={styles.ProjectsContent}>
+            <a className={styles.Project} href="https://tomasjurk.github.io/Portfolio/resume/" rel="noreferrer" target="_blank">
+                <div className={`${styles.ProjectImage} ${styles.Resume}`} />
+                <p>My resume, build with React and typescript</p>
+            </a>
             <a className={styles.Project} href="https://tomasjurk.github.io/Portfolio/socialapp/" rel="noreferrer" target="_blank">
                 <div className={`${styles.ProjectImage} ${styles.Blog}`} />
                 <p>A little social space page, blog</p>
@@ -17,10 +21,6 @@ const Projects = () => (
             <a className={styles.Project} href="https://tomasjurk.github.io/Portfolio/bikestations/" rel="noreferrer" target="_blank">
                 <div className={`${styles.ProjectImage} ${styles.Bikesharing}`} />
                 <p>Bike sharing stations with available bikes. Locations received from oslobysykkel.no open API.</p>
-            </a>
-            <a className={styles.Project} href="https://tomasjurk.github.io/Portfolio/burgerapp/" rel="noreferrer" target="_blank">
-                <div className={`${styles.ProjectImage} ${styles.BurgerBuilder}`} />
-                <p>Burger builder app</p>
             </a>
         </div>
     </div>

@@ -45,7 +45,7 @@
 .ProjectImage {
     width: 15rem;
     height: 15rem;
-    background: gray center center / cover no-repeat;
+    background: transparent center center / cover no-repeat;
     border-radius: .7rem;
     margin: .8rem auto;
 }
@@ -62,8 +62,8 @@
     background-image: url('../../assets/images/bikesharing.PNG');
 }
 
-.BurgerBuilder {
-    background-image: url('../../assets/images/burger.PNG');
+.Resume {
+    background-image: url('../../assets/images/resume.PNG');
 }
 
 @media only screen and (min-width: 601px) and (max-width: 899px) {
